@@ -1,0 +1,35 @@
+/* Estilo de la tarjeta que contiene toda información del producto */
+.product-card {
+    text-align: center;
+    height: 400px;
+    width: 220px;
+    color: white;
+    background-color: #24262bb9;
+    border-radius: 50px;
+}
+
+/* Contenedor de la imagen */
+.image-container-card {
+    width: 100%;
+    aspect-ratio: 1/1;
+    
+}
+
+/* Imagen */
+.image-card{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Nombre de la bebida */
+.title-card{
+    font-family: 'Staatliches', cursive;
+}
+
+/* Ingredientes de la bebida */
+/* Precio de las bebida */
+.precio-card,
+.ingredientes-card{
+    font-family: 'Dosis', sans-serif;
+}
